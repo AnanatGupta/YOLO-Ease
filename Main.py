@@ -106,9 +106,9 @@ def create_updated_yaml(original_yaml_path, train_images_dir, train_labels_dir, 
 
 if __name__ == '__main__':
     # --- Configuration ---
-    original_dataset_yaml_path = 'D:/Dataset/Pistols.v1-resize-416x416.yolov11/data.yaml'  # Replace with your original dataset YAML path
-    images_path = 'D:/Dataset/Pistols.v1-resize-416x416.yolov11/dataset/images' # Path to the directory containing ALL your images
-    labels_path = 'D:/Dataset/Pistols.v1-resize-416x416.yolov11/dataset/labels' # Path to the directory containing ALL your labels
+    original_dataset_yaml_path = 'D:/Dataset/v1-resize-416x416.yolov11/data.yaml'  # Replace with your original dataset YAML path
+    images_path = 'D:/Dataset/v1-resize-416x416.yolov11/dataset/images' # Path to the directory containing ALL your images
+    labels_path = 'D:/Dataset/v1-resize-416x416.yolov11/dataset/labels' # Path to the directory containing ALL your labels
     output_dir = 'D:/Dataset/Pistols.v1-split'  # Directory to save the split dataset
     updated_yaml_path = 'D:/Dataset/Pistols.v1-split/data_split.yaml' # Where to save the new yaml file
     pretrained_model = 'yolo11m.pt'
